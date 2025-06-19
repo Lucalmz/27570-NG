@@ -13,6 +13,8 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
+import org.firstinspires.ftc.teamcode.pedroPathing.ClassLibrary.Claw;
+
 /**
  * 优雅永不过时
  * @author LucaLi
@@ -25,7 +27,7 @@ public class AlgorithmLibrary {
     public static DcMotorEx Right_Hanging_Motor = null;
     public static DcMotorEx BigArm = null;
     public static Servo BackArm,back_grab,forward_claw,intake_rotate,camera_arm,arm_forward,forward_slide,intake_spinner;
-
+    public static Claw forward_claw,back_grab;
     public  boolean BackGrabFlag=false,IntakeRotateFlag=false;
     public  boolean ClawFlag=false,IntakeSlideFlag = false;
     public  boolean ArmFlag = false,CameraArmFlag = false;
